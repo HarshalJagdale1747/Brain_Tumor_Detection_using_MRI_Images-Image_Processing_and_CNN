@@ -23,7 +23,7 @@ The system preprocesses MRI images, performs segmentation and feature extraction
 
 ---
 
-# PART 1 — Brain Tumor Detection using Image Processing
+# Technique  1 — Brain Tumor Detection using Image Processing
 
 ## Objective
 
@@ -144,7 +144,7 @@ Brain_Tumor_Detection_DSIP_Practical_1.ipynb
 
 ---
 
-# PART 2 — Brain Tumor Detection using CNN and Deep Learning
+# Technique  2 — Brain Tumor Detection using CNN and Deep Learning
 
 ## Objective
 
