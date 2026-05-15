@@ -99,7 +99,7 @@ Tumor Visualization
 
 ## Original image and different image processing operation with Histogram Graph 
 
-![Original Processing](original_processing.png)
+![Original Processing](Output Image/accuracy_loss.png)
 ## Original Image and Different Image Processing Operations with Histogram Graph
 
 ![Original Processing](output_images/original_processing.png)
