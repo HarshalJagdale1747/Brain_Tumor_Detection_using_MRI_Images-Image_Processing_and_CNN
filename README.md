@@ -450,6 +450,3 @@ Electronics & Telecommunication Engineering
 
 ---
 
-# License
-
-This project is developed for educational and research purposes.
