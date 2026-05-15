@@ -99,8 +99,7 @@ Tumor Visualization
 
 ## Original image and different image processing operation with Histogram Graph 
 
-![Edge](Output Images/download.png)
-
+![Original Processing](original_processing.png)
 ---
 
 ## Train Vs Validation 
