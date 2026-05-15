@@ -95,35 +95,36 @@ Tumor Visualization
 
 # Sample Outputs
 
-## Original MRI
+---
 
-![Original](images/original.png)
+## Original image and different image processing operation with Histogram Graph 
+
+![Edge](Output Images/download.png)
 
 ---
 
-## Binary Conversion
+## Train Vs Validation 
 
-![Binary](images/binary.png)
-
----
-
-## Edge Detection
-
-![Edge](images/edge.png)
+![Original](Output Images/download (1).png)
 
 ---
 
-## Region Growing
+## Confusion Matrix 
 
-![Region](images/region.png)
+![Binary](Output Images/download (2).png)
+
+---
+
+## HEatmap 
+
+![Edge](Output Images/download (3).png)
 
 ---
 
-## Morphological Operations
+## Original MRI VS Output image 
 
-![Morphology](images/morphology.png)
+![Region](Output Images/download (4).png)
 
----
 
 # Applications
 
@@ -267,33 +268,89 @@ https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 
 # Sample Results
 
-## MRI Preprocessing
+## Original MRI and Grayscale image of original MRI image of glioma, meningioma, notumor, pituitary 
 
-![Preprocessing](images/preprocessing.png)
-
----
-
-## Tumor Segmentation
-
-![Segmentation](images/segmentation.png)
+![Preprocessing](Output Images/download (5).png)
 
 ---
 
-## CNN Accuracy Graph
+## Image Restoration 
 
-![Accuracy](images/accuracy.png)
-
----
-
-## Confusion Matrix
-
-![Confusion](images/confusion_matrix.png)
+![Segmentation](Output Images/download (6).png)
 
 ---
 
-## Final Prediction Output
+## Binary Conversation
 
-![Prediction](images/final_prediction.png)
+![Accuracy](Output Images/download (7).png)
+
+---
+
+## Edge Detection 
+
+![Confusion](Output Images/download (8).png)
+
+---
+
+## Region growing and watershed
+
+![Prediction](Output Images/download (9).png)
+
+---
+
+---
+
+## Morphological operation 
+
+![Prediction](Output Images/download (10).png)
+
+---
+
+---
+
+## Feature extraction 
+
+![Prediction](Output Images/download (11).png)
+
+---
+
+---
+
+## Dataset distribution 
+
+![Prediction](Output Images/download (12).png)
+
+---
+
+---
+
+## Accuracy and Loss
+
+![Prediction](Output Images/download (13).png)
+
+---
+
+---
+
+## Confusion matrix 
+
+![Prediction](Output Images/download (14).png)
+
+---
+
+---
+
+## Accurately predicted PITUITARY
+
+![Prediction](Output Images/download (15).png)
+
+---
+
+---
+
+## Accurately predicted GLIOMA 
+
+![Prediction](Output Images/download (16).png)
 
 ---
 
