@@ -1,80 +1,75 @@
-# Brain Tumor Detection using MRI Images and Basic Image Processing
+# Brain Tumor Detection using MRI Images, Image Processing and CNN
 
 ## Overview
 
-This project focuses on Brain Tumor Detection using Digital Image Processing techniques on MRI images. The system performs preprocessing, segmentation, edge detection, region growing, morphological operations, and feature extraction for identifying tumor regions.
+This repository contains two practical implementations related to Brain Tumor Detection using MRI images.
 
-The project demonstrates how classical image processing methods can help analyze medical MRI images before applying Deep Learning models.
+The project combines:
+1. Digital Image Processing Techniques
+2. Deep Learning using CNN
+
+The system preprocesses MRI images, performs segmentation and feature extraction, and classifies tumor types automatically.
 
 ---
 
-# Features
+# Repository Structure
 
-- MRI Image Preprocessing
+```text
+├── Brain_Tumor_Detection_DSIP_Practical_1.ipynb
+├── Brain_Tumor_Detection_DSIP_Practical_2.ipynb
+├── images/
+├── README.md
+```
+
+---
+
+# PART 1 — Brain Tumor Detection using Image Processing
+
+## Objective
+
+To understand and implement basic Digital Image Processing techniques for MRI brain tumor analysis.
+
+---
+
+# Techniques Used
+
+## Image Preprocessing
+- Resize Image
 - Grayscale Conversion
+- Histogram Equalization
+- CLAHE Enhancement
+
+---
+
+## Image Segmentation
 - Binary Thresholding
-- Edge Detection using Canny
-- Region Growing Segmentation
-- Morphological Operations
-- Feature Extraction
-- Histogram Analysis
-- Tumor Visualization
+- Region Growing
 
 ---
 
-# Technologies Used
-
-- Python
-- OpenCV
-- NumPy
-- Matplotlib
-- Scikit-image
-- Google Colab
+## Edge Detection
+- Canny Edge Detection
+- Sobel Edge Detection
 
 ---
 
-# Dataset
-
-Dataset Used:
-
-Brain Tumor MRI Dataset
-
-Dataset Link:
-
-https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
-
----
-
-# Image Processing Techniques Used
-
-## 1. Grayscale Conversion
-Converts MRI image into grayscale for easier processing.
-
-## 2. Binary Thresholding
-Separates tumor region from background.
-
-## 3. Edge Detection
-Canny edge detection used for tumor boundary extraction.
-
-## 4. Region Growing
-Groups neighboring pixels having similar intensity values.
-
-## 5. Morphological Operations
+## Morphological Operations
 - Erosion
 - Dilation
 - Opening
 - Closing
 
-## 6. Feature Extraction
-Extracts:
-- Area
-- Perimeter
+---
+
+## Feature Extraction
 - Contours
-- Bounding Box
+- Boundary Descriptors
+- Region Descriptors
+- Bounding Box Detection
 
 ---
 
-# Project Workflow
+# Workflow
 
 ```text
 MRI Image
@@ -100,7 +95,7 @@ Tumor Visualization
 
 # Sample Outputs
 
-## Original MRI Image
+## Original MRI
 
 ![Original](images/original.png)
 
@@ -132,29 +127,270 @@ Tumor Visualization
 
 # Applications
 
-- Brain Tumor Analysis
 - Medical Image Segmentation
 - MRI Enhancement
-- Healthcare Assistance
+- Tumor Region Analysis
 - Medical Research
 
 ---
 
-# How to Run
+# Notebook
 
-## Install Libraries
-
-```bash
-pip install opencv-python numpy matplotlib scikit-image tensorflow
-```
-
-## Run Notebook
-
-Open Jupyter Notebook or Google Colab and run:
+Run:
 
 ```bash
 Brain_Tumor_Detection_DSIP_Practical_1.ipynb
 ```
+
+---
+
+# PART 2 — Brain Tumor Detection using CNN and Deep Learning
+
+## Objective
+
+To design and implement an AI-based Brain Tumor Detection System using MRI images and Convolutional Neural Networks (CNN).
+
+---
+
+# Features
+
+- CNN based Tumor Classification
+- MRI Image Enhancement
+- Noise Removal
+- Segmentation
+- Tumor Detection
+- Automatic Classification
+- Result Visualization
+
+---
+
+# Tumor Classes
+
+The CNN model classifies MRI images into:
+
+1. Glioma
+2. Meningioma
+3. Pituitary
+4. No Tumor
+
+---
+
+# Deep Learning Workflow
+
+```text
+MRI Dataset
+     ↓
+Preprocessing
+     ↓
+Filtering & Enhancement
+     ↓
+Segmentation
+     ↓
+Morphological Operations
+     ↓
+Feature Extraction
+     ↓
+CNN Training
+     ↓
+Tumor Classification
+     ↓
+Prediction Visualization
+```
+
+---
+
+# CNN Architecture
+
+- Convolution Layer
+- ReLU Activation
+- Max Pooling
+- Flatten Layer
+- Dense Layer
+- Softmax Layer
+
+---
+
+# Training Details
+
+| Parameter | Value |
+|---|---|
+| Epochs | 10 |
+| Batch Size | 32 |
+| Optimizer | Adam |
+| Loss Function | Categorical Crossentropy |
+| Image Size | 128 × 128 |
+
+---
+
+# Dataset Information
+
+Dataset Used:
+
+Brain Tumor MRI Dataset
+
+Dataset Link:
+
+https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
+
+---
+
+# Dataset Split
+
+| Dataset | Percentage |
+|---|---|
+| Training | 68% |
+| Validation | 12% |
+| Testing | 20% |
+
+---
+
+# Performance
+
+| Metric | Result |
+|---|---|
+| Accuracy | 85% |
+| Precision | High |
+| Recall | High |
+| F1-Score | Good |
+
+---
+
+# Output Features
+
+- Tumor Bounding Box
+- Tumor Contours
+- Predicted Tumor Class
+- Confidence Score
+- Segmented Tumor Region
+
+---
+
+# Sample Results
+
+## MRI Preprocessing
+
+![Preprocessing](images/preprocessing.png)
+
+---
+
+## Tumor Segmentation
+
+![Segmentation](images/segmentation.png)
+
+---
+
+## CNN Accuracy Graph
+
+![Accuracy](images/accuracy.png)
+
+---
+
+## Confusion Matrix
+
+![Confusion](images/confusion_matrix.png)
+
+---
+
+## Final Prediction Output
+
+![Prediction](images/final_prediction.png)
+
+---
+
+# Applications
+
+- Hospital Radiology Assistance
+- Early Tumor Screening
+- Telemedicine
+- Medical AI Systems
+- Healthcare Diagnosis Support
+
+---
+
+# Advantages
+
+- Automatic Tumor Detection
+- Reduced Manual Effort
+- High Accuracy
+- Fast Diagnosis
+- Improved MRI Visualization
+
+---
+
+# Future Scope
+
+- Real-Time Detection
+- Cloud-Based MRI Analysis
+- 3D MRI Tumor Detection
+- Advanced CNN Models
+- Integration with Hospital Systems
+
+---
+
+# Research Paper References
+
+## Pereira et al. (2016)
+
+CNN-based Brain Tumor Segmentation
+
+https://ieeexplore.ieee.org/document/7780913
+
+---
+
+## Havaei et al. (2017)
+
+Brain Tumor Detection using Deep Neural Networks
+
+https://arxiv.org/abs/1505.03540
+
+---
+
+## Abiwinanda et al. (2019)
+
+CNN based Brain Tumor Classification
+
+https://iopscience.iop.org/article/10.1088/1742-6596/1192/1/012002/pdf
+
+---
+
+# Technologies Used
+
+- Python
+- TensorFlow / Keras
+- OpenCV
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Scikit-image
+- Google Colab
+
+---
+
+# Installation
+
+## Install Dependencies
+
+```bash
+pip install tensorflow opencv-python matplotlib seaborn scikit-learn scikit-image
+```
+
+---
+
+# Run the Project
+
+## Part 1
+
+```bash
+Brain_Tumor_Detection_DSIP_Practical_1.ipynb
+```
+
+## Part 2
+
+```bash
+Brain_Tumor_Detection_DSIP_Practical_2.ipynb
+```
+
+Run all cells in Google Colab or Jupyter Notebook.
 
 ---
 
@@ -165,3 +401,7 @@ Harshal Jagdale
 Electronics & Telecommunication Engineering
 
 ---
+
+# License
+
+This project is developed for educational and research purposes.
