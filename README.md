@@ -105,7 +105,8 @@ Tumor Visualization
 
 ## Train Vs Validation 
 
-![Original](Output Images/download (1).png)
+![Edge](Output%20Images/download.png)
+
 
 ---
 
