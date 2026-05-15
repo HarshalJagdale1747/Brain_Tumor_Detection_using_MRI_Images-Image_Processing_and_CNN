@@ -100,30 +100,33 @@ Tumor Visualization
 ## Original image and different image processing operation with Histogram Graph 
 
 ![Original Processing](original_processing.png)
----
+## Original Image and Different Image Processing Operations with Histogram Graph
 
-## Train Vs Validation 
-
-![Edge](Output%20Images/download.png)
-
+![Original Processing](output_images/original_processing.png)
 
 ---
 
-## Confusion Matrix 
+## Train vs Validation Accuracy Graph
 
-![Binary](Output Images/download (2).png)
-
----
-
-## HEatmap 
-
-![Edge](Output Images/download (3).png)
+![Train vs Validation](output_images/train_vs_validation.png)
 
 ---
 
-## Original MRI VS Output image 
+## Confusion Matrix
 
-![Region](Output Images/download (4).png)
+![Confusion Matrix](output_images/confusion_matrix.png)
+
+---
+
+## Heatmap Visualization
+
+![Heatmap](output_images/heatmap.png)
+
+---
+
+## Original MRI vs Output Prediction
+
+![Prediction Output](output_images/output_prediction.png)
 
 --
 
@@ -270,88 +273,75 @@ https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 # Sample Results
 
 ## Original MRI and Grayscale image of original MRI image of glioma, meningioma, notumor, pituitary 
+## Image Preprocessing
 
-![Preprocessing](Output Images/download (5).png)
-
----
-
-## Image Restoration 
-
-![Segmentation](Output Images/download (6).png)
+![Image Preprocessing](output_images/image_preprocessing.png)
 
 ---
 
-## Binary Conversation
+## Image Restoration
 
-![Accuracy](Output Images/download (7).png)
-
----
-
-## Edge Detection 
-
-![Confusion](Output Images/download (8).png)
+![Image Restoration](output_images/image_restoration.png)
 
 ---
 
-## Region growing and watershed
+## Binary Conversion
 
-![Prediction](Output Images/download (9).png)
-
----
+![Binary Conversion](output_images/binary_conversion.png)
 
 ---
 
-## Morphological operation 
+## Edge Detection
 
-![Prediction](Output Images/download (10).png)
-
----
+![Edge Detection](output_images/edge_detection.png)
 
 ---
 
-## Feature extraction 
+## Region Growing and Watershed Segmentation
 
-![Prediction](Output Images/download (11).png)
-
----
+![Region Growing](output_images/region_growing_watershed.png)
 
 ---
 
-## Dataset distribution 
+## Morphological Operations
 
-![Prediction](Output Images/download (12).png)
-
----
+![Morphological Operations](output_images/morphological_operations.png)
 
 ---
 
-## Accuracy and Loss
+## Feature Extraction
 
-![Prediction](Output Images/download (13).png)
-
----
+![Feature Extraction](output_images/feature_extraction.png)
 
 ---
 
-## Confusion matrix 
+## Dataset Distribution
 
-![Prediction](Output Images/download (14).png)
-
----
+![Dataset Distribution](output_images/dataset_distribution.png)
 
 ---
 
-## Accurately predicted PITUITARY
+## Accuracy and Loss Graph
 
-![Prediction](Output Images/download (15).png)
-
----
+![Accuracy and Loss](output_images/accuracy_loss.png)
 
 ---
 
-## Accurately predicted GLIOMA 
+## Confusion Matrix
 
-![Prediction](Output Images/download (16).png)
+![Confusion Matrix](output_images/confusion_matrix.png)
+
+---
+
+## Accurately Predicted PITUITARY Tumor
+
+![Pituitary Prediction](output_images/pituitary_prediction.png)
+
+---
+
+## Accurately Predicted GLIOMA Tumor
+
+![Glioma Prediction](output_images/glioma_prediction.png)
 
 ---
 
